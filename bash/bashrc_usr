@@ -1,0 +1,17 @@
+
+# command
+alias v='vim'
+alias m='more'
+alias g='gedit'
+alias restart_sshd='sudo systemctl restart sshd'
+alias restart_ftp='sudo systemctl start vsftpd; sudo systemctl enable vsftpd'
+
+search() {
+    grep -rin $1 .;
+}
+
+searchf() {
+    find . -name $1;
+}
+
+
