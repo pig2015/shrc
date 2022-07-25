@@ -1,2 +1,2 @@
-source bashrc_dev
-source bashrc_usr
+source ./bashrc_dev
+source ./bashrc_usr

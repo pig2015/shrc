@@ -6,6 +6,8 @@ alias g='gedit'
 alias restart_sshd='sudo systemctl restart sshd'
 alias restart_ftp='sudo systemctl start vsftpd; sudo systemctl enable vsftpd'
 
+alias path='~/scripts/path.sh'
+
 search() {
     grep -rin $1 .;
 }
