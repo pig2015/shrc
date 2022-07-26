@@ -1,2 +1,4 @@
-source ./zshrc_dev
-source ./zshrc_usr
+DIR="$(dirname ${0:a})"
+
+source $DIR/zshrc_dev
+source $DIR/zshrc_usr
