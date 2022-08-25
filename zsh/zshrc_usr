@@ -12,7 +12,7 @@ alias restart_ftp='sudo systemctl start vsftpd; sudo systemctl enable vsftpd'
 alias path='~/scripts/path.sh'
 
 search() {
-    grep -rin $1 .;
+    grep -rin $1 $2;
 }
 
 searchf() {
