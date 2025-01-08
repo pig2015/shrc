@@ -3,6 +3,8 @@
 
 alias py3 'python3'
 
+alias qsubnv 'qsub -P vlsi_meth_dfx_dev_sw -Is tcsh'
+
 # usr command
 alias v 'vim'
 alias m 'more'
