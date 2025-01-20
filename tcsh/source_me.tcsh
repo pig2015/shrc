@@ -2,10 +2,7 @@
 # dev cmd
 
 alias py3 'python3'
-
-alias qsubi.hw 'qsub -P vlsi_meth_dfx_dev_sw -Is tcsh'
-alias qsub.dfx '/home/ate/scripts/dftqtracker/DftSub/dftsub.pl -jobsize 32G -P vlsi_meth_dfx_dev_qa -category methodology'
-alias qsubi.dfx 'qsub.dfx -Is tcsh'
+alias qsubi 'qsub -Is tcsh'
 
 # usr command
 alias v 'vim'
@@ -22,4 +19,12 @@ alias p4a '~/scripts/p4attach.sh'
 alias search 'grep -rin \!:1'
 alias searchf '~/scripts/searchf.sh'
 alias cdpwd 'cd `pwd`'
+
+# nv only
+alias py3.nv '/home/utils/Python/builds/3.11.6-20240102/bin/python3'
+alias behave 'py3.nv -m behave'
+
+alias qsubi.hw 'qsubi -P vlsi_meth_dfx_dev_sw'
+alias qsub.dfx '/home/ate/scripts/dftqtracker/DftSub/dftsub.pl -jobsize 32G -P vlsi_meth_dfx_dev_qa -category methodology'
+alias qsubi.dfx 'qsub.dfx -Is tcsh'
 
