@@ -2,10 +2,7 @@
 # dev cmd
 
 alias py3 'python3'
-
-alias qsubi.hw 'qsub -P vlsi_meth_dfx_dev_sw -Is tcsh'
-alias qsub.dfx '/home/ate/scripts/dftqtracker/DftSub/dftsub.pl -jobsize 32G -P vlsi_meth_dfx_dev_qa -category methodology'
-alias qsubi.dfx 'qsub.dfx -Is tcsh'
+alias qsubi 'qsub -Is tcsh'
 
 # usr command
 alias v 'vim'
