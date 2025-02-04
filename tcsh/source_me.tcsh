@@ -30,6 +30,8 @@ bindkey '\e[4~'   end-of-line        # Linux console
 bindkey '\e[F'    end-of-line        # xterm
 bindkey '\eOF'    end-of-line        # gnome-terminal
 
-# prompt
-set prompt='%B%m:%~> '
+# sets
+set prompt='%B%m:%~> '  # for terminal prompt
+set symlinks="ignore"  # for cd .. to follow symlink path
+set color  # for tab completion coloring
 
