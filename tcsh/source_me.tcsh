@@ -30,6 +30,9 @@ bindkey '\e[4~'   end-of-line        # Linux console
 bindkey '\e[F'    end-of-line        # xterm
 bindkey '\eOF'    end-of-line        # gnome-terminal
 
+# prompt
+set prompt='%B%m:%~> '
+
 # nv only
 alias py3.nv '/home/utils/Python/builds/3.11.6-20240102/bin/python3'
 alias behave 'py3.nv -m behave'
