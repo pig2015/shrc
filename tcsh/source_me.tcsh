@@ -42,5 +42,8 @@ alias behave 'py3.nv -m behave'
 alias qsub.hw 'qsub -P vlsi_meth_dfx_dev_sw'
 alias qsubi.hw 'qsubi -P vlsi_meth_dfx_dev_sw'
 alias qsub.dfx '/home/ate/scripts/dftqtracker/DftSub/dftsub.pl -jobsize 32G -P vlsi_meth_dfx_dev_qa -category methodology'
+alias qsub.dfx.lar 'qsub.dfx -jobsize 256G'
 alias qsubi.dfx 'qsub.dfx -Is tcsh'
+alias qsubi.dfx.lar 'qsub.dfx.lar -Is tcsh'
+alias qstat.dfx '/home/ate/scripts/dftqtracker/DftSub/dftjobs.pl'
 
