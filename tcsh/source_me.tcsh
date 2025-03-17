@@ -17,7 +17,7 @@ alias p4s '~/scripts/p4safe.sh'
 alias p4attach '~/scripts/p4attach.sh'
 alias p4rebase '~/scripts/p4rebase.sh'
 
-alias search 'grep -rin \!:1'
+alias search '~/scripts/search.sh'
 alias searchf '~/scripts/searchf.sh'
 alias cdpwd 'cd `pwd`'
 
