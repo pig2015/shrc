@@ -37,8 +37,6 @@ set symlinks="ignore"  # for cd .. to follow symlink path
 set color  # for tab completion coloring
 
 # nv only
-alias py3.nv '/home/utils/Python/builds/3.11.6-20240102/bin/python3'
-alias behave 'py3.nv -m behave'
 
 alias qsub.hw 'qsub -P vlsi_meth_dfx_dev_sw'
 alias qsubi.hw 'qsubi -P vlsi_meth_dfx_dev_sw'
@@ -47,4 +45,9 @@ alias qsub.dfx.lar 'qsub.dfx -jobsize 256G'
 alias qsubi.dfx 'qsub.dfx -Is tcsh'
 alias qsubi.dfx.lar 'qsub.dfx.lar -Is tcsh'
 alias qstat.dfx '/home/ate/scripts/dftqtracker/DftSub/dftjobs.pl'
+
+alias py3.nv '/home/utils/Python/builds/3.11.6-20240102/bin/python3'
+alias behave 'py3.nv -m behave'
+alias diff '/home/utils/diffutils-3.12/bin/diff'
+alias git '/home/utils/git-2.9.2/bin/git'
 
