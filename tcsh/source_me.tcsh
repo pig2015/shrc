@@ -50,5 +50,6 @@ alias qstat.dfx '/home/ate/scripts/dftqtracker/DftSub/dftjobs.pl'
 alias py3.nv '/home/utils/Python/builds/3.11.6-20240102/bin/python3'
 alias behave 'py3.nv -m behave'
 alias diff '/home/utils/diffutils-3.12/bin/diff'
-alias git '/home/utils/git-2.9.2/bin/git'
+alias git '/home/utils/git-2.45.2/bin/git'
+alias vimdiff '/home/utils/vim-9.1.1797/bin/vimdiff'
 
