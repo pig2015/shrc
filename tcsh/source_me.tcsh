@@ -21,6 +21,7 @@ alias p4rebase '~/scripts/p4rebase.sh'
 alias search '~/scripts/search.sh'
 alias searchf '~/scripts/searchf.sh'
 alias cdpwd 'cd $PWD'
+alias tmuxs 'tmux new -As'
 
 # key mapping
 bindkey '\e[1~'   beginning-of-line  # Linux console
@@ -39,6 +40,10 @@ set color  # for tab completion coloring
 
 # nv only
 
+## bin
+setenv PATH /home/tools_ai/anthropic-ai/claude/stable:$PATH
+
+## alias
 alias qsub.hw 'qsub -P vlsi_meth_dfx_dev_sw'
 alias qsubi.hw 'qsubi -P vlsi_meth_dfx_dev_sw'
 alias qsub.dfx '/home/ate/scripts/dftqtracker/DftSub/dftsub.pl -jobsize 32G -P vlsi_meth_dfx_dev_qa -category methodology'
