@@ -20,6 +20,7 @@ alias p4rebase '~/scripts/p4rebase.sh'
 alias search '~/scripts/search.sh'
 alias searchf '~/scripts/searchf.sh'
 alias cdpwd 'cd $PWD'
+alias tmuxc '~/scripts/tmuxc.sh'
 
 # key mapping
 bindkey '\e[1~'   beginning-of-line  # Linux console
